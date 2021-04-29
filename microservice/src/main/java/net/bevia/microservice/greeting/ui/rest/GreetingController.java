@@ -22,7 +22,9 @@ public class GreetingController {
 
     @GetMapping("/greeting")
     public String greeting(){
-        final var app= eurekaClient.getApplication(appName);
-        return "Hola Mundo! " + app.getName();
+/*        final var app= eurekaClient.getApplication(appName);
+        return "Hola Mundo! " + app.getName();*/
+
+        return "Hola Mundo!";
     }
 }
