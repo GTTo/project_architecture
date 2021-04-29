@@ -21,3 +21,6 @@ eureka:
     instance-id: ${spring.application.name}-${random.uuid}
     leaseRenewalIntervalInSeconds: 1
     leaseExpirationDurationInSeconds: 2
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://eureka-server:8761/eureka}
