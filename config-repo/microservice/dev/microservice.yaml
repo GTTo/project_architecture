@@ -1,6 +1,8 @@
 spring:
   application:
     name: microservice
+    servlet:
+      context-path: /api/v1
   datasource:
     url: jdbc:mysql://localhost:3306/microservice
     username: root
@@ -14,6 +16,8 @@ spring:
         descriptor:
           sql:
             BasicBinder: TRACE
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl  
   h2:
     console:
       enabled: true
