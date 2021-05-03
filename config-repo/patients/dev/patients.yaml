@@ -3,10 +3,8 @@ server:
   servlet:
     context-path: /api/v1
 spring:
-  application:
-    name: microservice
   datasource:
-    url: jdbc:mysql://localhost:3306/microservice
+    url: jdbc:mysql://localhost:3306/patients
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
