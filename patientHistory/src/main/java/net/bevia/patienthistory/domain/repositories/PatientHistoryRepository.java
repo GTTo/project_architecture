@@ -7,5 +7,5 @@ import java.util.Optional;
 
 public interface PatientHistoryRepository extends CrudRepository<PatientHistory, String> {
 
-    Optional<PatientHistory> findByPatientUuid(String patienUUID);
+    Optional<PatientHistory> findByPatientUuid(String patientUUID);
 }
