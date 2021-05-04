@@ -1,4 +1,4 @@
-package net.bevia.microservice.infrastructure.cllients;
+package net.bevia.microservice.infrastructure.clients;
 
 import net.bevia.microservice.domain.models.PatientHistory;
 import org.springframework.stereotype.Component;
