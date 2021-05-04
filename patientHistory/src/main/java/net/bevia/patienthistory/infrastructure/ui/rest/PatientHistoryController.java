@@ -39,7 +39,7 @@ public class PatientHistoryController {
         }
     }
 
-    @GetMapping("getPatientHistory")
+    @GetMapping("/getPatientHistory/{uuid}")
     public Flux<PatientHistory> getPatientHistory(@PathVariable("uuid") String uuid){
         Flux<PatientHistory> result = Flux.just(patientHistoryService.getPatientHistory(uuid).get());
         return result;
