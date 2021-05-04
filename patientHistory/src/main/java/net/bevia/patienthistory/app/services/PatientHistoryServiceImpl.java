@@ -1,6 +1,5 @@
 package net.bevia.patienthistory.app.services;
 
-import com.netflix.discovery.converters.Auto;
 import net.bevia.patienthistory.domain.entities.PatientHistory;
 import net.bevia.patienthistory.domain.exceptions.PatientHistoryException;
 import net.bevia.patienthistory.domain.repositories.PatientHistoryRepository;
