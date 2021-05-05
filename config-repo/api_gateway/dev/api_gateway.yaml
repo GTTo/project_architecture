@@ -14,7 +14,7 @@ spring:
           predicates:
             - Path=/patients
         - id: patient-history
-          uri: lb://patient-history
+          uri: lb://patienthistory
           order: 8080
           predicates:
             - Path=/patienthistory
