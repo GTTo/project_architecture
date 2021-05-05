@@ -13,7 +13,7 @@ spring:
           order: 8080
           predicates:
             - Path=/patients
-        - id: history
+        - id: patientHistory
           uri: lb://history
           order: 8080
           predicates:
