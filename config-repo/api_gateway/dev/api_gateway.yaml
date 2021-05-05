@@ -13,11 +13,11 @@ spring:
           order: 8080
           predicates:
             - Path=/patients
-        - id: patientHistory
-          uri: lb://patientHistory
+        - id: patient-history
+          uri: lb://patient-history
           order: 8080
           predicates:
-            - Path=/patientHistory
+            - Path=/patienthistory
       loadbalancer:
         ribbon:
           enabled: false
